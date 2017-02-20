@@ -138,7 +138,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Search Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-478475750">&quot;size&quot;:12</stringProp>
+              <stringProp name="-478475750">&quot;size&quot;:10</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
