@@ -216,3 +216,60 @@ Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect 
 2017/02/21 14:26:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Prod-Like Search Thread Group 1-1 
 2017/02/21 14:26:32 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
 2017/02/21 14:26:32 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2017/02/21 14:37:24 INFO  - jmeter.gui.action.Load: Loading file: /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts/Sam-Search.jmx 
+2017/02/21 14:37:24 INFO  - jmeter.services.FileServer: Set new base='/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts' 
+2017/02/21 14:37:24 INFO  - jmeter.save.SaveService: Loading file: /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts/Sam-Search.jmx 
+2017/02/21 14:37:24 INFO  - jmeter.services.FileServer: Set new base='/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts' 
+2017/02/21 14:37:39 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/02/21 14:37:39 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/02/21 14:37:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2017/02/21 14:37:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Prod-Like Search Thread Group 
+2017/02/21 14:37:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Prod-Like Search Thread Group. 
+2017/02/21 14:37:39 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/02/21 14:37:39 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=true 
+2017/02/21 14:37:39 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/02/21 14:37:39 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/02/21 14:37:39 INFO  - jmeter.threads.JMeterThread: Thread started: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:37:48 INFO  - jmeter.gui.action.Start: Stopping test 
+2017/02/21 14:37:48 INFO  - jmeter.threads.JMeterThread: Stopping: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:37:48 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.RuntimeException: java.lang.InterruptedException
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:111)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig.getThreadService(ChromeDriverConfig.java:80)
+	at com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig.createBrowser(ChromeDriverConfig.java:60)
+	at com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig.createBrowser(ChromeDriverConfig.java:21)
+	at com.googlecode.jmeter.plugins.webdriver.config.WebDriverConfig.getPreparedBrowser(WebDriverConfig.java:233)
+	at com.googlecode.jmeter.plugins.webdriver.config.WebDriverConfig.threadStarted(WebDriverConfig.java:220)
+	at org.apache.jmeter.threads.JMeterThread$ThreadListenerTraverser.addNode(JMeterThread.java:659)
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:996)
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:978)
+	at org.apache.jmeter.threads.JMeterThread.threadStarted(JMeterThread.java:628)
+	at org.apache.jmeter.threads.JMeterThread.initRun(JMeterThread.java:616)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:245)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:404)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:80)
+	... 14 more
+
+2017/02/21 14:37:48 INFO  - jmeter.threads.JMeterThread: Thread finished: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:37:48 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/02/21 14:37:48 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2017/02/21 14:38:10 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/02/21 14:38:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/02/21 14:38:10 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2017/02/21 14:38:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Prod-Like Search Thread Group 
+2017/02/21 14:38:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Prod-Like Search Thread Group. 
+2017/02/21 14:38:10 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/02/21 14:38:10 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=true 
+2017/02/21 14:38:10 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/02/21 14:38:10 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/02/21 14:38:10 INFO  - jmeter.threads.JMeterThread: Thread started: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:38:15 INFO  - jmeter.threads.JMeterThread: Thread is done: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:38:15 INFO  - jmeter.threads.JMeterThread: Thread finished: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:38:15 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/02/21 14:38:15 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 

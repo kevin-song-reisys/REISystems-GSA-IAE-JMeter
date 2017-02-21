@@ -2,3 +2,4 @@
 .gitignore
 .idea/
 apache-jmeter-3.1/backups/
+/apache-jmeter-3.1/bin/jmeter.log
