@@ -1,44 +1,218 @@
-2017/02/19 17:45:23 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Loading user properties from: /Users/ykhadilkar/Downloads/apache-jmeter-3.1/bin/user.properties 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Loading system properties from: /Users/ykhadilkar/Downloads/apache-jmeter-3.1/bin/system.properties 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Version 3.1 r1770033 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: java.version=1.8.0_45 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: os.name=Mac OS X 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: os.arch=x86_64 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: os.version=10.12.3 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Max memory     =3817865216 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Available Processors =8 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: JMeterHome=/Users/ykhadilkar/Downloads/apache-jmeter-3.1 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: user.dir  =/Users/ykhadilkar/Downloads/apache-jmeter-3.1/bin 
-2017/02/19 17:45:23 INFO  - jmeter.JMeter: PWD       =/Users/ykhadilkar/Downloads/apache-jmeter-3.1/bin 
-2017/02/19 17:45:24 INFO  - jmeter.JMeter: IP: 10.0.0.9 Name: Yatins-MacBook-Pro.local FullName: 10.0.0.9 
-2017/02/19 17:45:24 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
-2017/02/19 17:45:24 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2017/02/19 17:45:26 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2017/02/19 17:45:26 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2017/02/19 17:45:26 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2017/02/19 17:45:27 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2017/02/19 17:45:27 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/ykhadilkar/Downloads/apache-jmeter-3.1/bin/proxyserver.jks 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener 
-2017/02/19 17:45:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.MonitorHealthVisualizer 
-2017/02/19 17:45:27 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2017/02/19 17:45:27 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2017/02/19 17:45:27 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2017/02/19 17:45:27 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/02/21 14:25:11 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Loading user properties from: /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1/bin/user.properties 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Loading system properties from: /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1/bin/system.properties 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: os.arch=x86_64 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: os.version=10.12.3 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Max memory     =3817865216 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Available Processors =8 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: JMeterHome=/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: user.dir  =/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1/bin 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: PWD       =/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1/bin 
+2017/02/21 14:25:11 INFO  - jmeter.JMeter: IP: 10.200.43.11 Name: Yatins-MacBook-Pro.local FullName: 10.200.43.11 
+2017/02/21 14:25:12 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2017/02/21 14:25:12 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2017/02/21 14:25:13 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/02/21 14:25:13 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/02/21 14:25:15 INFO  - org.jmeterplugins.repository.PluginManager: Plugins Status: [jmeter-ftp=3.1, jmeter-http=3.1, jmeter-jdbc=3.1, jmeter-jms=3.1, jmeter-monitors=3.1, jmeter-core=3.1, jmeter-junit=3.1, jmeter-java=3.1, jmeter-ldap=3.1, jmeter-mail=3.1, jmeter-mongodb=3.1, jmeter-native=3.1, jpgc-plugins-manager=0.11, jpgc-webdriver=1.4.0, jmeter-tcp=3.1, jmeter-components=3.1] 
+2017/02/21 14:25:16 INFO  - kg.apc.jmeter.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0 
+2017/02/21 14:25:16 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion 
+2017/02/21 14:25:16 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor 
+2017/02/21 14:25:16 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor 
+2017/02/21 14:25:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/02/21 14:25:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/02/21 14:25:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/02/21 14:25:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/02/21 14:25:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/02/21 14:25:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2017/02/21 14:25:17 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2017/02/21 14:25:17 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1/bin/proxyserver.jks 
+2017/02/21 14:25:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler 
+2017/02/21 14:25:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2017/02/21 14:25:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2017/02/21 14:25:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer 
+2017/02/21 14:25:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener 
+2017/02/21 14:25:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.MonitorHealthVisualizer 
+2017/02/21 14:25:17 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/02/21 14:25:17 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/02/21 14:25:17 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/02/21 14:25:17 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/02/21 14:25:20 INFO  - jmeter.services.FileServer: Default base='/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/apache-jmeter-3.1/bin' 
+2017/02/21 14:25:20 INFO  - jmeter.gui.action.Load: Loading file: /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts/Sam-Search.jmx 
+2017/02/21 14:25:20 INFO  - jmeter.services.FileServer: Set new base='/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts' 
+2017/02/21 14:25:20 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2017/02/21 14:25:20 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2017/02/21 14:25:20 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.1 
+2017/02/21 14:25:20 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2017/02/21 14:25:20 INFO  - jmeter.save.SaveService: Loading file: /Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts/Sam-Search.jmx 
+2017/02/21 14:25:20 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2017/02/21 14:25:20 INFO  - jmeter.services.FileServer: Set new base='/Users/ykhadilkar/Workspace/Java/iae/iae-jmeter-test/scripts' 
+2017/02/21 14:25:35 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/02/21 14:25:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/02/21 14:25:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/02/21 14:25:35 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2017/02/21 14:25:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Prod-Like Search Thread Group 
+2017/02/21 14:25:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Prod-Like Search Thread Group. 
+2017/02/21 14:25:35 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/02/21 14:25:35 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=true 
+2017/02/21 14:25:35 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/02/21 14:25:35 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/02/21 14:25:35 INFO  - jmeter.threads.JMeterThread: Thread started: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:26:17 INFO  - jmeter.gui.action.Start: Shutting test down 
+2017/02/21 14:26:17 INFO  - jmeter.threads.JMeterThread: Stopping: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:26:20 ERROR - jmeter.threads.JMeterThread: Test failed! org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+05136135	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1487705136136	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 1.0
+1487705136136	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1487705136137	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.7
+1487705136137	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1487705136138	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1487705136138	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1487705136139	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1487705136141	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1487705136141	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1487705136141	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1487705136141	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1487705136142	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1487705136143	addons.manager	DEBUG	Starting provider: GMPProvider
+1487705136149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1487705136149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1487705136149	addons.manager	DEBUG	Starting provider: PluginProvider
+1487705136150	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1487705136150	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1487705136150	addons.manager	DEBUG	Completed startup sequence
+1487705136497	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1487705136498	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1487705136498	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1487705136502	DeferredSave.extensions.json	DEBUG	Starting write
+1487705136614	addons.repository	DEBUG	No addons.json found.
+1487705136615	DeferredSave.addons.json	DEBUG	Save changes
+1487705136617	DeferredSave.addons.json	DEBUG	Starting timer
+1487705136660	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1487705136661	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1487705136661	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1487705136664	DeferredSave.extensions.json	DEBUG	Write succeeded
+1487705136664	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1487705136668	DeferredSave.addons.json	DEBUG	Starting write
+1487705136685	DeferredSave.addons.json	DEBUG	Write succeeded
+1487705143927	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.0
+1487705143928	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1487705143928	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.7
+1487705143928	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 1.0
+1487705144068	addons.manager	DEBUG	shutdown
+1487705144068	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1487705144068	addons.xpi	DEBUG	shutdown
+1487705144069	addons.xpi-utils	DEBUG	shutdown
+1487705144069	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1487705144070	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1487705144073	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1487705144073	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1487705144074	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1487705144077	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1487705144083	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'Yatins-MacBook-Pro.local', ip: '10.200.43.11', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at com.googlecode.jmeter.plugins.webdriver.config.FirefoxDriverConfig.createBrowser(FirefoxDriverConfig.java:100)
+	at com.googlecode.jmeter.plugins.webdriver.config.FirefoxDriverConfig.createBrowser(FirefoxDriverConfig.java:21)
+	at com.googlecode.jmeter.plugins.webdriver.config.WebDriverConfig.getPreparedBrowser(WebDriverConfig.java:233)
+	at com.googlecode.jmeter.plugins.webdriver.config.WebDriverConfig.threadStarted(WebDriverConfig.java:220)
+	at org.apache.jmeter.threads.JMeterThread$ThreadListenerTraverser.addNode(JMeterThread.java:659)
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:996)
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:978)
+	at org.apache.jmeter.threads.JMeterThread.threadStarted(JMeterThread.java:628)
+	at org.apache.jmeter.threads.JMeterThread.initRun(JMeterThread.java:616)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:245)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+05136135	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1487705136136	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 1.0
+1487705136136	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1487705136137	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.7
+1487705136137	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1487705136138	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1487705136138	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1487705136139	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1487705136141	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1487705136141	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1487705136141	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1487705136141	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1487705136142	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1487705136143	addons.manager	DEBUG	Starting provider: GMPProvider
+1487705136149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1487705136149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1487705136149	addons.manager	DEBUG	Starting provider: PluginProvider
+1487705136150	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1487705136150	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1487705136150	addons.manager	DEBUG	Completed startup sequence
+1487705136497	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1487705136498	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1487705136498	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1487705136502	DeferredSave.extensions.json	DEBUG	Starting write
+1487705136614	addons.repository	DEBUG	No addons.json found.
+1487705136615	DeferredSave.addons.json	DEBUG	Save changes
+1487705136617	DeferredSave.addons.json	DEBUG	Starting timer
+1487705136660	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1487705136661	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1487705136661	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1487705136664	DeferredSave.extensions.json	DEBUG	Write succeeded
+1487705136664	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1487705136668	DeferredSave.addons.json	DEBUG	Starting write
+1487705136685	DeferredSave.addons.json	DEBUG	Write succeeded
+1487705143927	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.0
+1487705143928	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1487705143928	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.7
+1487705143928	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 1.0
+1487705144068	addons.manager	DEBUG	shutdown
+1487705144068	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1487705144068	addons.xpi	DEBUG	shutdown
+1487705144069	addons.xpi-utils	DEBUG	shutdown
+1487705144069	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1487705144070	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1487705144073	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1487705144073	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1487705144074	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1487705144077	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1487705144083	addons.manager	DEBUG	Async provider shutdown done
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 15 more
+
+2017/02/21 14:26:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:26:20 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/02/21 14:26:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2017/02/21 14:26:25 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/02/21 14:26:25 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/02/21 14:26:25 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2017/02/21 14:26:25 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Prod-Like Search Thread Group 
+2017/02/21 14:26:25 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Prod-Like Search Thread Group. 
+2017/02/21 14:26:25 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/02/21 14:26:25 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=true 
+2017/02/21 14:26:25 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/02/21 14:26:25 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/02/21 14:26:25 INFO  - jmeter.threads.JMeterThread: Thread started: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:26:27 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = Yatins-MacBook-Pro.local 
+2017/02/21 14:26:27 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2017/02/21 14:26:27 INFO  - jmeter.protocol.http.sampler.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory 
+2017/02/21 14:26:27 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2017/02/21 14:26:27 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2017/02/21 14:26:27 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2017/02/21 14:26:27 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2017/02/21 14:26:27 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2017/02/21 14:26:32 INFO  - jmeter.threads.JMeterThread: Thread is done: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:26:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Prod-Like Search Thread Group 1-1 
+2017/02/21 14:26:32 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/02/21 14:26:32 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
