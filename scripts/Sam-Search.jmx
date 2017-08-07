@@ -71,7 +71,7 @@
               </elementProp>
               <elementProp name="index" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">cfda,opp,fh,ent,ex,wd,fpds</stringProp>
+                <stringProp name="Argument.value">cfda,opp,fh,ei,wd,fpds</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">index</stringProp>
@@ -255,7 +255,7 @@
               </elementProp>
               <elementProp name="index" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">ent</stringProp>
+                <stringProp name="Argument.value">ei</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">index</stringProp>
