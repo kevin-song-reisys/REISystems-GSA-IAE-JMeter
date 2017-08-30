@@ -6,6 +6,11 @@ logs
 sam-data-entry/build/
 sam-data-entry/.gradle
 
+# Jmeter Properties
+sam-data-entry/*.properties
+# Except example properties file
+!sam-data-entry/example.properties
+
 # OS generated files #
 .DS_Store
 ehthumbs.db
@@ -16,4 +21,3 @@ Thumbs.db
 .idea/
 *.swp
 *.iml
-
