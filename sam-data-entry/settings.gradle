@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'gmail-otp-test'
+rootProject.name = 'sam-data-entry'
