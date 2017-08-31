@@ -1,17 +1,21 @@
 # Data Entry JMeter Scripts
 
-## Updating Custom JAR
-**Prerequisites:**
+## Prerequisites
 
-- JDK 1.8+: [Download](http://www.oracle.com/technetwork/java/javase/downloads/index.html), [Install](http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html) 
-	-- *Check using `java -version`*
+- JDK 1.8+: [Download](http://www.oracle.com/technetwork/java/javase/downloads/index.html), [Install](http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html) -- *Check using `java -version`*
 
 - Gradle 4.1+: [Install](https://gradle.org/install/) -- *Check using `gradle --version`*
 
+## Updating Custom JAR
+
 1. If building for the first time, download credentials necessary to access Google APIs
-1a. Go to the [Google API Console](https://console.developers.google.com/) and create a new OAuth web application credential if necessary
-1b. Download the `client_secrets.json` file for the credential and place it in `src/main/resources/`
+
+    1a. Go to the [Google API Console](https://console.developers.google.com/) and create a new OAuth web application credential if necessary
+    
+    1b. Download the `client_secrets.json` file for the credential and place it in `src/main/resources/`
+    
 2. Build the project with `gradle -q build`
+
 3. Copy the JAR created in `build/libs/` to your JMeter directory's `lib/ext/`
 
 ## Properties file
